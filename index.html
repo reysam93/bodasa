@@ -262,14 +262,28 @@
 	<div id="fh5co-transporte">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+				<div class="col-md-10 col-md-offset-1 text-center fh5co-heading transport-heading animate-box">
 					<h2 data-i18n="transport.title">Transporte</h2>
 					<h3 data-i18n="transport.subtitle">¿Cómo llegar y volver?</h3>
-					<p data-i18n-html="transport.description">
-						El sitio es precioso y, aunque se puede llegar en coche, somos conscientes de que el lugar está un pelín retirado 😅. Para ponértelo fácil, tenemos pensado poner autobús de ida y vuelta.<br>
-						Aún no tenemos horarios ni puntos de recogida: <strong>los añadiremos aquí más adelante</strong>.<br>
-						En la confirmación de asistencia dinos si te interesa usar el bus.
-					</p>
+					<p data-i18n="transport.intro">¡Confirmado! Habrá autobuses de ida y vuelta para que solo tengas que preocuparte de disfrutar.</p>
+					<div class="transport-grid">
+						<article class="transport-card">
+							<i class="icon-direction" aria-hidden="true"></i>
+							<h4 data-i18n="transport.outbound.title">Ida a la finca</h4>
+							<p class="transport-time">17:30</p>
+							<p data-i18n="transport.outbound.description">Salida desde Glorieta de San Vicente (parada 8372).</p>
+						</article>
+						<article class="transport-card">
+							<i class="icon-clock" aria-hidden="true"></i>
+							<h4 data-i18n="transport.return.title">Regreso a Madrid</h4>
+							<p class="transport-time">00:00 <span data-i18n="transport.or">o</span> 05:00</p>
+							<p data-i18n="transport.return.description">Dos turnos de salida desde la finca, ambos con llegada al mismo punto.</p>
+						</article>
+					</div>
+					<a class="transport-location" href="https://www.google.com/maps/search/?api=1&amp;query=Glorieta+de+San+Vicente+parada+8372+Madrid" target="_blank" rel="noopener noreferrer">
+						<i class="icon-location" aria-hidden="true"></i>
+						<span data-i18n="transport.location">Ver punto de salida y llegada en Google Maps</span>
+					</a>
 				</div>
 			</div>
 		</div>

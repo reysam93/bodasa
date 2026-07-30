@@ -96,3 +96,78 @@
 #fh5co-offcanvas .language-switcher button {
   border-color: rgba(255, 255, 255, 0.35);
 }
+
+#fh5co-transporte .transport-heading {
+  margin-bottom: 0;
+}
+
+.transport-grid {
+  display: flex;
+  gap: 24px;
+  margin: 36px 0 28px;
+}
+
+.transport-card {
+  flex: 1;
+  padding: 30px 24px 26px;
+  border: 1px solid rgba(110, 5, 21, 0.14);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.transport-card > i {
+  display: block;
+  margin-bottom: 14px;
+  color: rgba(110, 5, 21, 1);
+  font-size: 36px;
+}
+
+.transport-card h4 {
+  margin-bottom: 8px;
+  color: #5d5d5d;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.transport-card .transport-time {
+  margin-bottom: 8px;
+  color: rgba(110, 5, 21, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.transport-card p:last-child {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.transport-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.transport-location i {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-transporte {
+    padding: 3em 0;
+  }
+
+  .transport-grid {
+    display: block;
+    margin-top: 28px;
+  }
+
+  .transport-card {
+    margin-bottom: 18px;
+  }
+}
